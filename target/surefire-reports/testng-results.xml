@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Tested Successflly.!]]>
+    </line>
+    <line>
+      <![CDATA[<a  target="_blank" href=Tue_Jan_10_11_12_30_IST_2023.jpg>ScreenShot</a>/]]>
+    </line>
+    <line>
+      <![CDATA[Customer added Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Tested Successflly.!]]>
+    </line>
+    <line>
+      <![CDATA[<a  target="_blank" href=Tue_Jan_10_11_12_39_IST_2023.jpg>ScreenShot</a>/]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-01-10T11:12:21 IST" name="Firt Project" finished-at="2023-01-10T11:12:40 IST" duration-ms="19587">
+    <groups>
+    </groups>
+    <test started-at="2023-01-10T11:12:21 IST" name="Bankn Manager Login Test" finished-at="2023-01-10T11:12:32 IST" duration-ms="10920">
+      <class name="com.v2a.testCases.LoginTest">
+        <test-method signature="doLogin()[pri:0, instance:com.v2a.testCases.LoginTest@49438269]" started-at="2023-01-10T11:12:21 IST" name="doLogin" finished-at="2023-01-10T11:12:30 IST" duration-ms="9466" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Tested Successflly.!]]>
+            </line>
+            <line>
+              <![CDATA[<a  target="_blank" href=Tue_Jan_10_11_12_30_IST_2023.jpg>ScreenShot</a>/]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+      </class> <!-- com.v2a.testCases.LoginTest -->
+    </test> <!-- Bankn Manager Login Test -->
+    <test started-at="2023-01-10T11:12:32 IST" name="Add Customer  Test" finished-at="2023-01-10T11:12:40 IST" duration-ms="8446">
+      <class name="com.v2a.testCases.AddCustomerTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.v2a.testCases.AddCustomerTest@707194ba]" started-at="2023-01-10T11:11:57 IST" name="setUp" finished-at="2023-01-10T11:12:21 IST" duration-ms="23670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addCustomer(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.v2a.testCases.AddCustomerTest@707194ba]" started-at="2023-01-10T11:12:32 IST" name="addCustomer" data-provider="getData" finished-at="2023-01-10T11:12:39 IST" duration-ms="7516" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vignesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Govindraju]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[621723]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Customer added successfully]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Customer added Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Tested Successflly.!]]>
+            </line>
+            <line>
+              <![CDATA[<a  target="_blank" href=Tue_Jan_10_11_12_39_IST_2023.jpg>ScreenShot</a>/]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addCustomer -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.v2a.testCases.AddCustomerTest@707194ba]" started-at="2023-01-10T11:12:40 IST" name="tearDown" finished-at="2023-01-10T11:12:45 IST" duration-ms="4518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.v2a.testCases.AddCustomerTest -->
+    </test> <!-- Add Customer  Test -->
+  </suite> <!-- Firt Project -->
+</testng-results>
